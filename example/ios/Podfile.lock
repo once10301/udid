@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - udid (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - udid (from `.symlinks/plugins/udid/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  udid:
+    :path: ".symlinks/plugins/udid/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  udid: 64bd5a1da04ee46b04a875a666fd0f79fa7a61ee
+
+PODFILE CHECKSUM: 7fb83752f59ead6285236625b82473f90b1cb932
+
+COCOAPODS: 1.8.3
