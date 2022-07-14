@@ -37,8 +37,7 @@ public class UdidPlugin implements MethodCallHandler {
   // https://blog.csdn.net/sunsteam/article/details/73189268
   private String getUniqueId() {
     String androidID = Settings.Secure.getString(registrar.activity().getContentResolver(), Settings.Secure.ANDROID_ID);
-    String id = androidID + Build.SERIAL;
-    return md5(id);
+    return md5(androidID);
   }
 
   private static String md5(String string) {
